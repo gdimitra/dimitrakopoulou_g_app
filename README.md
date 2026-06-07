@@ -1,11 +1,23 @@
+---
+title: Black Friday High Spender Classifier
+emoji: 🛍️
+colorFrom: purple
+colorTo: pink
+sdk: gradio
+sdk_version: "6.16.0"
+app_file: app.py
+pinned: false
+license: apache-2.0
+---
+
 # Black Friday High Spender Classifier
 
 A machine learning app that predicts whether a retail customer is a **High Spender** based on their transaction and demographic features.
 
 ## Dataset
 
-**Source:** [Black Friday Sales Dataset — Kaggle](https://www.kaggle.com/)  
-**License:** CC0: Public Domain  
+**Source:** [Black Friday Sales Dataset — Kaggle](https://www.kaggle.com/datasets/noopurbhatt/retail-black-friday-sales-dataset)  
+**License:** apache-2.0 
 **Size:** 100,000 retail transactions captured during Black Friday sales
 
 ## Model
@@ -15,17 +27,6 @@ A machine learning app that predicts whether a retail customer is a **High Spend
 - **Winner:** Decision Tree (max_depth=3) — 98.25% accuracy
 - **Key predictors:** `final_price`, `quantity`
 
-## App Tabs
-
-| Tab | Description |
-|-----|-------------|
-| **EDA** | Descriptive statistics and feature distributions |
-| **Model Card** | Comparison of all trained models |
-| **Predict** | Enter transaction details and get a prediction |
-
 ## Built With
 
 - scikit-learn, pandas, Gradio, Plotly, joblib
-
----
-*MSc in Business Information Systems & Analytics — Python for Data Science, ML and AI*
