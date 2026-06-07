@@ -6,6 +6,7 @@ A machine learning app that predicts whether a retail customer is a **High Spend
 
 **Source:** [Black Friday Sales Dataset — Kaggle](https://www.kaggle.com/datasets/noopurbhatt/retail-black-friday-sales-dataset)  
 **License:** apache-2.0
+
 **Size:** 100,000 retail transactions captured during Black Friday sales
 
 ## Model
