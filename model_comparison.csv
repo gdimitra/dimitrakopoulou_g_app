@@ -1,0 +1,4 @@
+Algorithm,Accuracy,Winner
+Decision Tree (depth=10),0.9925,False
+Decision Tree (depth=3),0.9825,True
+Logistic Regression,0.97,False
